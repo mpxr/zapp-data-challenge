@@ -1,0 +1,14 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "zapp-data-challenge",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-06-14",
+	"observability": {
+		"enabled": true
+	},
+	"d1_databases": [{
+		"binding": "DB",
+		"database_name": "stock-db",
+		"database_id": "7a319bcc-d8fb-4618-aba0-55991757f8bd"
+	}]
+}
